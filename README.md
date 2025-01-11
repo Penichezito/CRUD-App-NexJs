@@ -14,10 +14,13 @@ This document outlines the steps and key considerations for building a CRUD (Cre
         ```
     *   Install required dependencies: `prisma`, `@prisma/client`, and `sqlite`.
         ```bash
-         npm install prisma @prisma/client sqlite3
+           npm install prisma --install prsima --save-dev 
+        ```
+        ```
+         
         ```
 2.  **Prisma Initialization (Optional):**
-    *   Initialize Prisma using the command `npx prisma init`.
+    *   Initialize Prisma using the command `npx prisma init --datasource-provider sqlite`.
     *   Define the database schema in `prisma/schema.prisma`. This schema should include models for **User**, **Product**, and **Sale**, with their respective fields and relationships.
     *   Example schema:
         ```prisma
