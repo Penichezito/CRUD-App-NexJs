@@ -5,5 +5,9 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return <DashboardLayout>{children}</DashboardLayout>
+  return (
+    <DashboardLayout>
+        {children}
+    </DashboardLayout>
+    )
 }
