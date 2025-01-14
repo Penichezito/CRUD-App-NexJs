@@ -63,7 +63,7 @@ This document outlines the steps and key considerations for building a CRUD (Cre
         *   **Create** new users (**POST**).
         *   **Read** existing users (**GET**).
         *   **Update** user information (**PUT**).
-        *   **Delete** users (**DELETE**). [3, conversation history]
+        *   **Delete** users (**DELETE**). 
 2.  **Authentication API:**
     *   Implement a login API in `pages/api/auth.ts`.
     *   Use **JWT** or cookie-based authentication.
@@ -122,14 +122,14 @@ This document outlines the steps and key considerations for building a CRUD (Cre
 ## Frameworks and Technologies
 
 *   **Mandated:**
-    *   **Next.js** as the framework. [conversation history]
-    *  **TypeScript** for static typing [conversation history]
-    *   **SQLite** as the database. [conversation history]
+    *   **Next.js** as the framework.
+    *  **TypeScript** for static typing
+    *   **SQLite** as the database. 
 *   **Optional:**
     *   **Prisma** as an ORM (Object-Relational Mapper) to interact with the database. Although the source mentions it is optional, the code examples provided use Prisma.
 *   **UI Framework**:
-    *   The choice between Material UI (with JavaScript or TypeScript) and Tailwind CSS (with TypeScript) is not mandated and depends on the user's priorities. [conversation history]
-    *   **Material UI (with TypeScript):** Best for rapid development and ease of use in a TypeScript environment. It allows you to focus more on functionality and less on styling.
-    *   **Tailwind CSS (with TypeScript):** Best for customized styling, performance optimization, and improved code maintainability, with a steeper learning curve. [conversation history]
+    *   The choice between Material UI (with JavaScript or TypeScript) and Tailwind CSS (with TypeScript) is not mandated and depends on the user's priorities. 
+    *   **Material UI (with TypeScript):** Choising for MUI because is Best for rapid development and ease of use in a TypeScript environment. It allows you to focus more on functionality and less on styling.
+
 
 This document provides a comprehensive overview of building a CRUD application using Next.js and TypeScript. Remember that code examples are for illustration purposes and may need adjustments based on your specific needs. **The key difference is the use of `.ts` and `.tsx` extensions, as well as the inclusion of type annotations and interfaces within your code, to take advantage of TypeScript's static typing.**
