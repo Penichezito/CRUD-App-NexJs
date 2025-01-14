@@ -47,7 +47,7 @@ This document outlines the steps and key considerations for building a CRUD (Cre
           date      DateTime @default(now())
         }
         ```
-    *   Generate the Prisma Client using `npx prisma generate`.
+    *   Generate the Prisma Client using `npx prisma generatemigrate dev --name init`.
     *   Push the schema to the database to create the SQLite database file (`dev.db`) and the defined tables using `npx prisma db push`.
 
 ## Backend Development (API)
